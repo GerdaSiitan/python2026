@@ -1,13 +1,20 @@
 # --------------- sorted, sort, filter -----------------------
 
+import functools
+from typing import List
 from matplotlib.pylab import number
 
+# Sort -----------------------
 
 words=['10','2','1']
 words.sort()
 print(words)
 
+# Sorted -----------------------
+
 print(sorted('alina'))
+
+# Filter -----------------------
 
 nums = [0,1,2]
 list(filter(lambda x: x, nums))
@@ -52,5 +59,3 @@ b=["1", "2", "3", "4"]
 
 for i, j in zip(a, b):
     print(i, j)
-
-# --------------- lambda -----------------------+
